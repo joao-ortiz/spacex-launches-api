@@ -1,0 +1,29 @@
+.selection-container {
+    width: 100%;
+    background-color: rgba(50, 50, 50, 0.5  );
+    display: flex;
+    flex-direction: row;
+}
+
+.section-button {
+    font-weight: bold;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+    font-size: 1.5rem;
+    padding-top: 5px;
+    width: 15%;  
+}
+
+.active {
+    background-color: #EDF4F5;
+    color: #171717;
+}
+
+.section-button:hover {
+    text-decoration: underline;
+}

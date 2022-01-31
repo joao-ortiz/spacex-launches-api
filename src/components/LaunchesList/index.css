@@ -1,0 +1,13 @@
+.launches-list {
+     overflow-y: auto; 
+     width: 70%;
+     height: 100%;
+     padding: 1%;
+}
+.controls-section {
+     display: flex;
+     flex-direction: column;
+     align-self: start;
+     width: 100%;
+     background-color: #EDF4F5;
+}

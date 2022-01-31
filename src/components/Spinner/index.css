@@ -1,0 +1,12 @@
+.spinner {
+    background-image: url("../../assets/loading.png");
+    height: 2rem;
+    width: 2rem;
+    animation: spinner 4s infinite linear;
+}
+
+
+@keyframes spinner {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}

@@ -1,0 +1,6 @@
+.launches-list{
+    display: flex;
+    align-items: center;
+    overflow-y: scroll;
+    height: 100%;
+}

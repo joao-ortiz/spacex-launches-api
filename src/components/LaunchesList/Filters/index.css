@@ -1,0 +1,78 @@
+.filters-container {
+    display: flex;
+    flex-direction: row; 
+    padding: 15px;
+    align-self: flex-start;
+    padding-left: 3%;
+    color: #141414;
+    align-items: center;
+    flex-grow: 30%;
+    flex-basis: 0;
+}
+
+.filter-label{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #36454F;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.filters-container h2{
+    font-size: 1.2rem;
+}
+
+.filters-container button {
+    outline: none;
+    border-radius: 5px;
+    background-color: #EDF4F5;
+    color: black;
+    font-size: 1rem;
+    padding: 5px 8px;
+    border: none;
+    margin-right: 4px;
+    cursor: pointer;
+    transition: 0.1s all;
+    font-weight: bold;
+}
+
+.filters-container .selected,.filters-container button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.success-selector-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding-top: 2rem;
+    width: 300px;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.date-pickers-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    position: relative;
+}
+.react-datepicker-wrapper {
+    margin-right: 5px;
+    padding-top: 2rem;
+}
+
+.filters-control-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.check {
+    padding-top: 2rem;
+    position: relative;
+    width: 200px;
+}
+

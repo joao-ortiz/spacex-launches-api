@@ -1,0 +1,69 @@
+.launch-card-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    background-color: rgba(10, 10, 10, 0.8);
+    border-radius: 5px;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    flex-basis: 33%;
+    flex-wrap: wrap;
+}
+
+.launch-number {
+    flex-basis: 5rem;
+    font-size: 1.2rem;
+}
+
+.launch-title {
+    flex-basis: calc(60% - 5rem);
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.launch-success{
+    flex-basis: 7rem;
+    color: chartreuse;
+    text-decoration: underline;
+    align-self: flex-end;
+    flex-basis: calc(70% - 40px);
+    text-align: end;
+    padding-right: 20px;
+    font-size: 1.8rem;
+}
+
+.failure {
+    color: red;
+}
+
+.launch-patch {
+    height: 80px;
+    width: 80px;
+    align-self: flex-end;
+    background-position: center;
+    background-size: cover;
+    flex-basis: 80px;
+}
+
+.favourite{
+    flex-basis: calc(30% - 44px);
+    align-self: flex-end;
+    align-content: flex-end;
+    margin-left: 4px;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.launch-rocket {
+    font-size: 1.2rem;
+    text-align: right;
+    flex-basis: 40%;
+}
